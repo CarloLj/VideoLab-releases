@@ -1,34 +1,34 @@
-# VideoLab — descargas
+# VideoLab — downloads
 
-Alertas de Twitch locales, con overlays para OBS y editor visual de escenas.
-No usa StreamElements ni Streamlabs: corre en tu PC y solo habla con Twitch.
+Local Twitch alerts, with overlays for OBS and a visual scene editor.
+No StreamElements or Streamlabs: it runs on your PC and only talks to Twitch.
 
-## Descargar
+## Download
 
-Ve a **[Releases](https://github.com/CarloLj/VideoLab-releases/releases/latest)**
-y baja `VideoLab-Setup-<version>.exe`.
+Go to **[Releases](https://github.com/CarloLj/VideoLab-releases/releases/latest)**
+and grab `VideoLab-Setup-<version>.exe`.
 
-- No necesitas instalar Node.js ni nada mas: el instalador lo trae todo.
-- No pide permisos de administrador: se instala solo para tu usuario.
-- Windows 10 o superior, 64 bits.
+- You don't need to install Node.js or anything else: the installer brings everything.
+- No administrator permissions needed: it installs just for your user.
+- Windows 10 or later, 64-bit.
 
-Como el instalador todavia no esta firmado, Windows puede mostrar
-"Windows protegio tu PC". Pulsa **Mas informacion > Ejecutar de todas formas**.
+Since the installer isn't signed yet, Windows may show "Windows protected your PC".
+Click **More info > Run anyway**.
 
-## Primer arranque
+## First launch
 
-Se abre un asistente que te guia en 4 pasos. El primero es **activar la
-verificacion en dos pasos (2FA)** en tu cuenta de Twitch: sin eso Twitch no deja
-crear la aplicacion que VideoLab necesita.
+A wizard opens and guides you in 4 steps. The first one is **enabling two-step
+verification (2FA)** on your Twitch account: without it, Twitch won't let you
+create the application VideoLab needs.
 
-Tus credenciales se quedan en tu equipo. Nunca se envian a ningun sitio.
+Your credentials stay on your machine. They're never sent anywhere.
 
-## Actualizaciones
+## Updates
 
-VideoLab avisa solo cuando hay una version nueva. Desde el Panel, el boton
-**Actualizar ahora** la descarga e instala encima; tus escenas, sonidos e
-imagenes se conservan.
+VideoLab tells you on its own when there's a new version. From the Dashboard,
+the **Update now** button downloads it and installs over the top; your scenes,
+sounds, and images are kept.
 
-## Que hay en este repo
+## What's in this repo
 
-Solo las descargas. El codigo fuente esta en un repo aparte.
+Just the downloads. The source code lives in a separate repo.
